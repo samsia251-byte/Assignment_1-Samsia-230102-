@@ -1,0 +1,16 @@
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    for (int i = 1; i <= 4; i++)
+    {
+        for (int j = 0; j < i; j++)
+        {
+            printf("%c", 'A' + j);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
